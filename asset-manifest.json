@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mini-git/static/css/main.e6c13ad2.css",
-    "main.js": "/mini-git/static/js/main.95ea084a.js",
+    "main.js": "/mini-git/static/js/main.3b654937.js",
     "static/js/787.1c58d97b.chunk.js": "/mini-git/static/js/787.1c58d97b.chunk.js",
     "index.html": "/mini-git/index.html",
     "main.e6c13ad2.css.map": "/mini-git/static/css/main.e6c13ad2.css.map",
-    "main.95ea084a.js.map": "/mini-git/static/js/main.95ea084a.js.map",
+    "main.3b654937.js.map": "/mini-git/static/js/main.3b654937.js.map",
     "787.1c58d97b.chunk.js.map": "/mini-git/static/js/787.1c58d97b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.95ea084a.js"
+    "static/js/main.3b654937.js"
   ]
 }
