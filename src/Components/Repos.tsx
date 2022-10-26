@@ -12,7 +12,7 @@ function Repos(props: any) {
 
   let [repos, setRepos] = useState<any[]>([]);
 
-  function handleSubmit(e: any) {
+  function getRepos(e: any) {
     e.preventDefault();
     searchRepos();
   }
@@ -44,7 +44,7 @@ function Repos(props: any) {
           size="small"
           onChange={(e) => setUserName(e.target.value)}
         />
-        <Button variant="contained" onClick={handleSubmit} disabled={loading}>
+        <Button variant="contained" onClick={getRepos} disabled={loading}>
           {loading ? "Searching..." : "Search"}
         </Button>
       </div>
@@ -76,6 +76,7 @@ function Repos(props: any) {
             {repos.map((repo) => (
               <div key={repo.id}>
                 <ListItem
+                  style={{ cursor: "pointer" }}
                   onClick={(e) => props.getCommits(repo.name, userName)}
                 >
                   {repo.name}
